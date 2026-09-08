@@ -13,8 +13,9 @@ The goal is not to recreate every feature of `bash` or `zsh`, but to build a pra
 
 A Unix shell is more than a program that launches commands.
 
-When a user enters:
 ```markdown
+When a user enters:
+
 ```bash
 cat input.txt | grep hello > output.txt
 ````
@@ -963,13 +964,11 @@ The current implementation supports:
 ✓ Basic error handling
 ```
 
-The project is now primarily in the **documentation, cleanup, and packaging stage** rather than feature development.
+
 
 ---
 
 # **📄 License**
 
-This project is intended primarily for educational and learning purposes.
-
----
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 

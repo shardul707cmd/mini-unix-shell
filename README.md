@@ -13,9 +13,8 @@ The goal is not to recreate every feature of `bash` or `zsh`, but to build a pra
 
 A Unix shell is more than a program that launches commands.
 
-```markdown
 When a user enters:
-
+```markdown
 
 cat input.txt | grep hello > output.txt
 ````

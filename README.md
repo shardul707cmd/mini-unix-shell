@@ -1,7 +1,7 @@
 ````markdown
 # Mini Unix Shell
 
-A lightweight Unix-like command-line shell written in C++17 for macOS.
+A lightweight Unix-like command-line shell written in C++17 for POSIX-compatible systems.
 
 This project implements the core mechanisms behind a Unix shell from the ground up, including **process creation, program execution, pipelines, file-descriptor redirection, signals, process groups, terminal control, and foreground/background job management**.
 
@@ -555,7 +555,7 @@ The parser also detects unmatched quotes and malformed pipelines.
 
 # **🔧 Technical Implementation**
 
-The shell is implemented using standard C++17 together with POSIX APIs available on macOS.
+The shell is implemented using standard C++17 together with POSIX APIs available on Unix-like systems.
 
 ### **Core APIs**
 

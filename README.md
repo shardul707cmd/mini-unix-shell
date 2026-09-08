@@ -1,4 +1,4 @@
-````markdown
+
 # Mini Unix Shell
 
 A lightweight Unix-like command-line shell written in C++17 for POSIX-compatible systems.
@@ -14,8 +14,8 @@ The goal is not to recreate every feature of `bash` or `zsh`, but to build a pra
 A Unix shell is more than a program that launches commands.
 
 When a user enters:
-
-
+```markdown
+```bash
 cat input.txt | grep hello > output.txt
 ````
 

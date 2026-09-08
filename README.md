@@ -16,7 +16,7 @@ A Unix shell is more than a program that launches commands.
 ```markdown
 When a user enters:
 
-```bash
+
 cat input.txt | grep hello > output.txt
 ````
 
